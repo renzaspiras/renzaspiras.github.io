@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 20px;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+    background: url("caramel.jpg");
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#header #title{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+#cool{
+    background: url("crop.jpeg");
+
+}
+#content{
+    display: flex;
+    background: url("brew.webp");
+    width: 60%;
+    margin: auto;
+    border-radius: 30px;
+    flex-direction: column;
+
+}
+#context{
+    text-align: center;
+    background: rgb(0, 0, 0);
+    margin: auto;
+    padding: 10px;
+    opacity: 80%;
+    border-radius: 20px;
+}
+#context p{
+    font-size: 50px;
+}
+img{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    border-radius: 40px;
+}
