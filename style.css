@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+#header{
+    background-color: rgb(25, 13, 68);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+#ME{
+    /*background-color: pink;*/
+    width: 400px;
+    padding: 50px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /*background-color: red;*/
+    height: auto;
+    width: 400px;
+}
+
+#profile_picture{
+    width: 300px;
+    border-radius: 180px;
+}
+
+#more{
+    display: flex;
+    flex-direction: row;
+    /*background-color: blue;*/
+    width: 400px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#more_about_me{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#more_about_me2{
+    display: none;
+}
+
+#self_intro{
+    color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+#line{
+    background-color: white;
+    height: 10px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+#self_intro h1{
+    font-size: 100px;
+}
+#self_intro h3{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#self_intro p{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+#this{
+    margin-top: 50px;
+}
+
+#skills{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#skills h6{
+    font-size: 17px;
+    background-color: rgb(70, 79, 158);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#fillerA{
+    background-color: rgb(25, 13, 68);
+    height: 100px;
+    margin-top: -50px;
+}
+#fillerB{
+    background-color: rgb(226, 226, 226);
+    height: 100px;
+    margin-top: -50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#fillerC{
+    margin-top: -90px;
+}
+
+#Content{
+    margin-bottom: 100px;
+    /*background-color: red;*/
+}
+
+#Titles{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#data{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#items{
+    background-color: rgb(90, 90, 90);
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#items img{
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#items h4{
+    color: white;
+    font-size: 24px;
+}
+
+#fillerD{
+    background-color: rgb(226, 226, 226);
+    height: 100px;
+    margin-top: -100px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#contactME{
+    /*margin-left: 50px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contacage{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#contacage li img{
+    width: 30px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#footname{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+@media(max-width:979px){
+    #header{
+        background-color: rgb(25, 13, 68);
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    #ME{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #more_about_me{
+        display: none;
+    }
+
+    #self_intro{
+        color: white;
+        margin-top: -70px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    #self_intro h1{
+        text-align: center;
+    }
+    #line{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #this{
+        margin-top: 30px;
+    }
+
+    #skills{
+        justify-content: center;
+    }
+
+    #more_about_me2{
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bolder;
+        border-width: 2px;
+        border-color: white;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+}
+
+@media(max-width:600px){
+    #self_intro p, h1, #line, span{
+        display: none;
+    }
+    #Titles{
+        display: block;
+    }
+    #self_intro{
+        margin-top: -50px;
+        font-size: 60px;
+    }
+}
+
+@media(max-width:600px){
+    
+}
