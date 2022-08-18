@@ -271,6 +271,18 @@ body{
     }
 }
 
-@media(max-width:600px){
-    
+@media(max-width:500px){
+    #items img{
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+@media(max-width:400px){
+    #items img{
+        width: 350px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
 }
