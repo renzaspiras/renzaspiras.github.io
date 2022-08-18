@@ -1,0 +1,46 @@
+#header .toggle_white{
+    background-color: transparent;
+    border: solid white;
+    border-width: 5px;
+    border-radius: 180px;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#header .toggle_white h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 10px;
+    transition: 0.3s ease;
+}
+
+/*#header .toggle_white h1:hover{
+    transform: rotate(540deg);
+}*/
+
+#header .toggle_white .lineA{
+    background-color: white;
+    height: 5px;
+    width: 60%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+#header .toggle_white .lineB{
+    background-color: white;
+    height: 5px;
+    width: 60%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+#header .toggle_white .lineC{
+    background-color: white;
+    height: 5px;
+    width: 60%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
