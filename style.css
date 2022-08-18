@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(226, 226, 226);
+    overflow-x: hidden;
 }
 
 #header{
@@ -259,7 +260,7 @@ body{
 }
 
 @media(max-width:600px){
-    #self_intro p, h1, #line, span{
+    #self_intro p, h1, #line, span,#more{
         display: none;
     }
     #Titles{
