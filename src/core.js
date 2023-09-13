@@ -3,7 +3,7 @@ constructor()
 function constructor(){
     header()
     body_system()
-    detects()
+    //detects()
 }
 
 function header(){
@@ -51,6 +51,7 @@ function detects(){
     })
 }
 
+/*
 function Camera(){
     make('video').from('camera-feed').to('#Camera_Frame').content('').build()
     const cam = document.getElementById('camera-feed')
@@ -71,3 +72,22 @@ function Camera(){
     }); 
     
 }
+*/
+
+function Camera() {
+    const videoElement = document.getElementById('camera-feed');
+  
+    if (navigator.mediaDevices.getUserMedia) {
+      const constraints = {
+        video: true,
+        facingMode: "environment",
+      };
+  
+      navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+        videoElement.srcObject = stream;
+      });
+    } else {
+      console.error('The getUserMedia() method is not supported');
+    }
+  }
+  
