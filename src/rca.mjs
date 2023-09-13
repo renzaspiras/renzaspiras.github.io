@@ -108,3 +108,13 @@ export async function readJSONFile(fileUrl) {
 export function openLink(url) {
   window.open(url, "_blank");
 }
+
+export function addScript(src){
+  const script = document.createElement('script');
+  script.src = src;
+  script.type = 'text/javascript';
+
+  document.body.appendChild(script);
+
+  return script;
+}

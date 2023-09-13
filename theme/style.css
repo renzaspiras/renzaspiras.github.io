@@ -1,46 +1,32 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-
-
-#App_Frame{
-    background-color: yellow;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
 }
 
-#Camera_Frame{
-    background-color: black;
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-}
-
-#camera-feed{
-    height: 500px;
-    width: 500px;
-    border-radius: 20px;
-    transform: scaleX(-1);
-}
-
-#Scan_Frame{
+#canvas{
     display: flex;
+    flex-direction: column;
+    width: 80%;
     background-color: red;
-    margin-top: 10px;
-    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#ID{
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
-
-#scanCon{
-    height: 200px;
-    width: 200px;
+svg{
     margin-left: auto;
     margin-right: auto;
+    scale: 50%;
 }
-
+image{
+    width: 60px;
+    height: 60px;
+    x:120px;
+    y:120px;
+}
