@@ -54,7 +54,9 @@ function detects(){
 function Camera(){
     make('video').from('camera-feed').to('#Camera_Frame').content('').build()
     const cam = document.getElementById('camera-feed')
+
     cam.autoplay = true
+    cam.facingMode = "environment"
     cam.setAttribute('playsinline', '');
     document.addEventListener('DOMContentLoaded', async () => {
         try {
@@ -66,6 +68,6 @@ function Camera(){
         } catch (error) {
             console.error('Error accessing the camera:', error);
         }
-    });
+    }); 
     
 }
